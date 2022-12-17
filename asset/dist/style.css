@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+  font-size: 20px;
+}
+
+nav {
+  color: white;
+  background-color: rgba(27, 27, 27, 0.7960784314);
+  width: 100%;
+  height: 75px;
+  background-color: rgba(27, 27, 27, 0.7960784314);
+  line-height: 75px;
+  padding: 0px 100px;
+  position: fixed;
+  z-index: 1;
+}
+nav .logo {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+nav .logo p {
+  color: white;
+  font-size: 25px;
+  float: left;
+  text-transform: uppercase;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0px 32px;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 70vh;
+  background-size: 100%;
+  background-image: url(../../asset/image1.jpg);
+}
+.container h1 {
+  color: white;
+  font-size: 25px;
+}
+.container p {
+  color: white;
+  font-size: 15px;
+}
+.container button {
+  background-color: #DC3545;
+  border: 1px solid;
+  padding: 10px;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.container2 .card {
+  width: 80%;
+  height: 30vh;
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+}
+.container2 .card p {
+  font-size: 15px;
+}
+.container2 i {
+  font-size: 40px;
+}
+
+.container3 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 30vh;
+  background-size: cover;
+  background-image: url(../../asset/lights.jpg);
+  padding: 20px;
+}
+.container3 h2 {
+  color: white;
+}
+.container3 p {
+  color: white;
+  font-size: 15px;
+}
+
+.container4 {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.container4 .cart2 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container4 .cart2 .lap {
+  display: flex;
+  width: 50%;
+}
+.container4 .cart2 .lap img {
+  width: 100%;
+}
+.container4 .btn2 {
+  background-color: white;
+  border: 2px solid #DC3545;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: #DC3545;
+}
+.container4 text {
+  padding: 10px;
+  margin: 30px;
+  text-align: left;
+}
+
+.container5 {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.container5 .cart3 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-top: 0 auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.container5 .cart3 .item:nth-child(odd) {
+  background-color: #DC3545;
+}
+.container5 .cart3 .item:nth-child(even) {
+  background-color: rgba(27, 27, 27, 0.7960784314);
+}
+.container5 .item {
+  width: 30%;
+  margin-top: 10px;
+  height: 20vh;
+  padding: 10px;
+}
+.container5 .item h5, .container5 p {
+  color: white;
+  font-size: 15px;
+}
+.container5 .item i {
+  margin-top: 5px;
+  color: white;
+  font-size: 40px;
+}
+
+.container6 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 30vh;
+  background-size: cover;
+  background-image: url(../../asset/media.jpg);
+  padding: 20px;
+}
+.container6 .overflow {
+  background-color: rgb(10, 7, 7);
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

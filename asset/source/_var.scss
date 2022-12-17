@@ -1,0 +1,16 @@
+$primary-color:#1b1b1bcb;
+$accent-color:#DC3545;
+
+$white-color:white;
+$font-size:(
+    "sm":15px,
+    "md": 25px,
+    "l":40px
+
+);
+
+@mixin my-flex($justfiy,$align){
+    display: flex;
+    justify-content: $justfiy;
+    align-items: $align;
+}
